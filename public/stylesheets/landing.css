@@ -1,0 +1,24 @@
+section {
+    padding: 50px 0;
+}
+
+#join input{
+width: 50%;
+margin: auto;
+}
+footer {
+    background-color: #222;
+    color: #eee;
+    padding: 20px;
+}
+
+.footer-links {
+    padding: 5px;
+}
+
+#border {
+    border-bottom:  	#eee 1px solid;
+}
+#footer-form {
+    padding-top: 10px;
+}
