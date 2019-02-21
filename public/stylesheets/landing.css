@@ -2,6 +2,20 @@ section {
     padding: 50px 0;
 }
 
+header {
+    background-image: url('https://images.pexels.com/photos/4827/nature-forest-trees-fog.jpeg?');
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+#join {
+    background-image: url('https://images.pexels.com/photos/33263/highspeed-photography-water-drop-of-water-alien-dance.jpg?');
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    color: #eee;
+}
+
 #join input{
 width: 50%;
 margin: auto;

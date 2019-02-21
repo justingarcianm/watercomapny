@@ -1,15 +1,17 @@
 <% include partials/header %>
 <nav class="navbar navbar-light bg-light">
     <a class="navbar-brand" href="/">Water Co. <i class="fas fa-running"></i></a>
-    <p>Contact us: <a href="mailto:example@email.comSubject=Water%20Questions">example@email.com</a></p>
+    <p>Contact us: <a href="mailto:example@email.com?Subject=Water%20Questions">example@email.com</a></p>
 
 </nav>
 <main class="container-fluid text-center">
 
 
     <section class="container-fluid">
-        <img
-            src="https://images.pexels.com/photos/4827/nature-forest-trees-fog.jpeg?auto=compress&cs=tinysrgb&h=650&w=940">
+        <header class="text-left">
+            <h1>Header Text</h1>
+            <p>secondary text</p>
+        </header>
     </section>
     <section class="container">
         <div class="row">
@@ -56,51 +58,59 @@
         </div>
     </section>
     <section id="join">
+
         <h3>Want to know more?</h3>
         <form action="" class="form-group">
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
                 placeholder="Enter email">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
             <br>
-            <button type="submit" class="btn btn-dark">Submit</button>
+            <button type="submit" class="btn btn-primary">Submit</button>
         </form>
     </section>
 
     <section>
         <div class="row">
+            <div class="col">
+                <h3>Select a package</h3>
+            </div>
+        </div>
+        <div class="row">
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
-                        <h3>lorem</h3>
+                        <h3>Package 1</h3>
                     </div>
                     <div class="card-body">
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ullam
                             recusandae
                             mollitia veritatis at fugiat.</p>
+                        <button type="submit" class="btn btn-dark">Select</button>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
-                        <h3>lorem</h3>
+                        <h3>Package 2</h3>
                     </div>
                     <div class="card-body">
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ullam
                             recusandae
                             mollitia veritatis at fugiat.</p>
+                        <button type="submit" class="btn btn-dark">Select</button>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
-                        <h3>lorem</h3>
+                        <h3>Package 3</h3>
                     </div>
                     <div class="card-body">
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ullam
                             recusandae
                             mollitia veritatis at fugiat.</p>
+                        <button type="submit" class="btn btn-dark">Select</button>
                     </div>
                 </div>
             </div>
@@ -128,7 +138,7 @@
                 <p>Water Co. LLC <br>
                     114 main st. <br>
                     Albuquerque, NM 87114</p>
-                <p><a href="mailto:example@email.comSubject=Water%20Questions">example@email.com</a> <br>
+                <p><a href="mailto:example@email.com?Subject=Water%20Questions">example@email.com</a> <br>
                     <a href="tel:555-555-5555">555-555-5555</a>
                 </p>
             </div>
