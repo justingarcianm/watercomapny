@@ -3,9 +3,9 @@ const express = require("express"),
     app = express(),
     port = 3000;
 
+app.set("view engine", "ejs");
 
+app.get("/", (req, res) => res.render("landing"))
 
-app.listen(port, () => {
-    console.log("Server running at  http://localhost:3000/");
-});
+app.listen(port, () => console.log("Server running at http://localhost:3000/"));
 
